@@ -5,16 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Post</title>
-  <link rel="stylesheet" type="text/css" href="../css/blog-post.css">
+  <link rel="stylesheet" type="text/css" href="../css/blog-post/blog-post.css">
 </head>
 <body>
 
   <nav>
     <h1>Blog</h1>
-    <a href="../index.html">home</a>
+    <a href="../index.html">Home</a>
   </nav>
 
-  <section>
+  <section class="main-article">
     
     <header>
       <h2>Lorem Ipsum</h2>
@@ -22,7 +22,10 @@
 
     <aside>
       <div class="author-info">
-        <img class="avatar" src="../images/avatar.jpg" alt="Author Pic">
+        <figure>
+          <img class="avatar" src="../images/avatar.jpg" alt="Author Pic">
+          <figcaption>Profile pic: John Doe</figcaption>
+        </figure>
         <div class="info">
           <h3 class="name">John Doe</h3>
           <p class="company"><strong>J.D., Inc.</strong></p>
@@ -39,8 +42,8 @@
 
     <main>
       <content>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis est sit amet dapibus scelerisque. 
-        Mauris consectetur ut ante at lacinia. Donec convallis vestibulum orci, sit amet sagittis sem ultrices eget.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <u>Vestibulum convallis est sit amet dapibus scelerisque. 
+        Mauris consectetur ut ante at lacinia</u>. Donec convallis vestibulum orci, sit amet sagittis sem ultrices eget.
         Donec vitae diam eget erat molestie vulputate pharetra luctus orci. Fusce at lorem eu quam commodo pharetra.
         Donec consectetur in felis sit amet hendrerit. Donec vitae laoreet metus. Sed malesuada lectus mi, in mattis sapien sollicitudin ac.
         Aliquam ac massa ac dui cursus tempor.
@@ -49,7 +52,9 @@
       <h3>Lorem Ipsum 2</h3>
 
       <content>
-        Ut sagittis, erat eu pulvinar varius, leo libero scelerisque erat, non malesuada enim lectus non turpis.
+        <blockquote cite="https://www.lipsum.com/feed/html">
+          "Ut sagittis, erat eu pulvinar varius, leo libero scelerisque erat, non malesuada enim lectus non turpis."
+        </blockquote>
 
         <ul>
           <li>Cras ornare efficitur neque non fringilla.</li>
@@ -60,6 +65,8 @@
         Duis iaculis tempus velit, ac aliquet lorem venenatis nec. Morbi sit amet convallis quam. 
         Donec arcu lorem, iaculis et magna a, aliquet blandit turpis. Donec venenatis ultrices ex, sed bibendum arcu venenatis sit amet.
       </content>
+      <br>
+      <button class="share"><u>Share</u></button>
     </main>
   </section>
 

@@ -1,0 +1,21 @@
+@media(min-width: 900px) {
+  section {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: 
+      "hd asd"
+      "main asd";
+  }
+
+  header {
+    grid-area: hd;
+  }
+
+  aside {
+    grid-area: asd;
+  }
+
+  main {
+    grid-area: main;
+  }
+}
