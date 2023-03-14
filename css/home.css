@@ -28,18 +28,6 @@
   margin: 15px 0;
 }
 
-footer {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #c0c0c0;
-}
-
-footer > p {
-  margin: 15px;
-}
-
 @media(min-width: 900px) and (max-width: 1200px) {
   .card-container {
     display: grid;
