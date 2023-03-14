@@ -1,0 +1,19 @@
+@import '../default.css';
+@import 'classes-blog-post.css';
+@import 'media-queries-blog-post.css';
+
+li {
+  margin: 15px;
+}
+
+main {
+  line-height: 1.5em;
+}
+
+h3 {
+  margin: 15px auto;
+}
+
+figure {
+  grid-area: 1/1/1/2;
+}
